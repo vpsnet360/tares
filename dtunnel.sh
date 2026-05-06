@@ -3,7 +3,7 @@
 # ============================================
 # DTunnelMod Panel - Instalador y Gestor
 # Versión: 2.4 - FIXEAD ALL
-# Powerby Code: BlackHanzoX
+# Powerby Code: X
 # ============================================
 
 # Colores
