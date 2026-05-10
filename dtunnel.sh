@@ -3,7 +3,7 @@
 # ============================================
 # DTunnelMod Panel - Instalador y Gestor
 # Versión: 2.4 - FIXEAD ALL
-# Powerby Code: X
+# Powerby Code: kevin
 # ============================================
 
 # Colores
@@ -988,8 +988,8 @@ gestionar_usuarios() {
         echo -e "${CELESTE}┃${NC} ${VERDE}[1]${NC} ${BLANCO}Dar días de expiración${NC}"
         echo -e "${CELESTE}┃${NC} ${VERDE}[2]${NC} ${BLANCO}Cambiar rol de usuario${NC}"
         echo -e "${CELESTE}┃${NC} ${VERDE}[3]${NC} ${BLANCO}Hacer admin vitalicio${NC}"
-        echo -e "${CELESTE}┃${NC} ${VERDE}[4]${NC} ${BLANCO}Volver al menú principal${NC}"
-        echo -e "${CELESTE}┃${NC} ${VERDE}[5]${NC} ${BLANCO}Eliminar Usuario${NC}"
+        echo -e "${CELESTE}┃${NC} ${VERDE}[4]${NC} ${BLANCO}Eliminar Usuario${NC}"
+        echo -e "${CELESTE}┃${NC} ${VERDE}[5]${NC} ${BLANCO}Volver al menú principal${NC}"
         echo -e "${CELESTE}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛${NC}"
         echo ""
         echo -ne "${CELESTE}┗━┫${NC} ${VERDE}Seleccione una opción: ${BLANCO}"; read op_user
@@ -1024,11 +1024,11 @@ gestionar_usuarios() {
                 fi
                 hacer_admin_vitalicio "$username"
                 ;;
-            4)
+            5)
                 return
                 ;;
                 
-            5) 
+            4) 
                 echo -ne "${CELESTE}┗━┫${NC} ${VERDE}Nombre de usuario a eliminar: ${BLANCO}"; read username
                 if [ -z "$username" ]; then
                     error "Nombre de usuario vacío"
